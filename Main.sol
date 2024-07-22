@@ -47,18 +47,7 @@ contract HelloWorld {
             return (0, true); // Overflow occurred
         }
         return (_a + _b, false);
-        if (_b > MAX_INT - _a) {
-            return (0, true); // Overflow occurred
-        }
-        return (_a + _b, false);
-
-        if (_b > MAX_INT - _a) {
-            return (0, true); // Overflow occurred
-        }
-        return (_a + _b, false);
-        if (_b > MAX_INT - _a) {
-            return (0, true); // Overflow occurred
-        }
+  
         return (_a + _b, false);
         if (_b > MAX_INT - _a) {
             return (0, true); // Overflow occurred
